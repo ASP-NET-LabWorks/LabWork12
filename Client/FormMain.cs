@@ -11,7 +11,7 @@ namespace Client
         {
             InitializeComponent();
 
-            comboBoxMode.SelectedIndex = 0;
+            comboBoxOperation.SelectedIndex = 0;
 
             try
             {
@@ -28,7 +28,7 @@ namespace Client
         {
             try
             {
-                switch (comboBoxMode.SelectedIndex)
+                switch (comboBoxOperation.SelectedIndex)
                 {
                     case 0:
                         textBoxResult.Text = client.Add(int.Parse(textBoxA.Text), int.Parse(textBoxB.Text)).ToString();

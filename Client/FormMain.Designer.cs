@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.panelMain = new System.Windows.Forms.Panel();
-            this.comboBoxMode = new System.Windows.Forms.ComboBox();
+            this.comboBoxOperation = new System.Windows.Forms.ComboBox();
             this.textBoxResult = new System.Windows.Forms.TextBox();
             this.buttonEquals = new System.Windows.Forms.Button();
             this.textBoxB = new System.Windows.Forms.TextBox();
@@ -43,7 +43,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panelMain.BackColor = System.Drawing.Color.Transparent;
-            this.panelMain.Controls.Add(this.comboBoxMode);
+            this.panelMain.Controls.Add(this.comboBoxOperation);
             this.panelMain.Controls.Add(this.textBoxResult);
             this.panelMain.Controls.Add(this.buttonEquals);
             this.panelMain.Controls.Add(this.textBoxB);
@@ -56,21 +56,21 @@
             // 
             // comboBoxMode
             // 
-            this.comboBoxMode.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.comboBoxMode.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.comboBoxMode.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBoxMode.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBoxMode.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.comboBoxMode.ForeColor = System.Drawing.Color.White;
-            this.comboBoxMode.FormattingEnabled = true;
-            this.comboBoxMode.Items.AddRange(new object[] {
+            this.comboBoxOperation.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.comboBoxOperation.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.comboBoxOperation.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxOperation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBoxOperation.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.comboBoxOperation.ForeColor = System.Drawing.Color.White;
+            this.comboBoxOperation.FormattingEnabled = true;
+            this.comboBoxOperation.Items.AddRange(new object[] {
             "Сложение",
             "Вычитание",
             "Конкатенация"});
-            this.comboBoxMode.Location = new System.Drawing.Point(3, 54);
-            this.comboBoxMode.Name = "comboBoxMode";
-            this.comboBoxMode.Size = new System.Drawing.Size(254, 27);
-            this.comboBoxMode.TabIndex = 4;
+            this.comboBoxOperation.Location = new System.Drawing.Point(3, 54);
+            this.comboBoxOperation.Name = "comboBoxMode";
+            this.comboBoxOperation.Size = new System.Drawing.Size(254, 27);
+            this.comboBoxOperation.TabIndex = 4;
             // 
             // textBoxResult
             // 
@@ -150,7 +150,7 @@
         private System.Windows.Forms.TextBox textBoxB;
         private System.Windows.Forms.TextBox textBoxResult;
         private System.Windows.Forms.Button buttonEquals;
-        private System.Windows.Forms.ComboBox comboBoxMode;
+        private System.Windows.Forms.ComboBox comboBoxOperation;
     }
 }
 
